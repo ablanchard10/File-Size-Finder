@@ -3,7 +3,7 @@ from Folder import Folder
 from pathlib import Path
 import ntpath
 
-
+"""djikstra algo"""
 class Search(object):
     def dfs_method(self, start_path, parent_folder, indents, root_contents):
         path = start_path
